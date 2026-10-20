@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+.idea/
+*.sln
+*.xcodeproj/
+*.xcworkspace/

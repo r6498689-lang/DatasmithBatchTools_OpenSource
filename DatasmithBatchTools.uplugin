@@ -1,0 +1,28 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Datasmith Batch Tools",
+  "Description": "Batch material instance generation, texture property editing, and Datasmith file import for Unreal Editor.",
+  "Category": "Editor",
+  "CreatedBy": "DatasmithBatchTools contributors",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "EngineVersion": "5.6.0",
+  "EnabledByDefault": false,
+  "Modules": [
+    { "Name": "DatasmithBatchToolsEditor", "Type": "Editor", "LoadingPhase": "PostEngineInit" }
+  ],
+  "PythonRequirements": [
+    { "Platform": "Win64", "Requirements": [
+      "PySide6-Essentials==6.8.3 --hash=sha256:3c0fae5550aff69f2166f46476c36e0ef56ce73d84829eac4559770b0c034b07",
+      "shiboken6==6.8.3 --hash=sha256:bca3a94513ce9242f7d4bbdca902072a1631888e0aa3a8711a52cc5dbe93588f"
+    ] }
+  ],
+  "Plugins": [
+    { "Name": "PythonScriptPlugin", "Enabled": true },
+    { "Name": "EditorScriptingUtilities", "Enabled": true },
+    { "Name": "AutomationUtils", "Enabled": true },
+    { "Name": "DatasmithImporter", "Enabled": true }
+  ]
+}
